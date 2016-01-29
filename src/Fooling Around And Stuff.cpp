@@ -4,6 +4,9 @@ using namespace std;
 int main(int argc,char**argv)
 {
 	int n;
+	string a; //used
+	string b; //used
+	string c; //used
 	string d; //used
 	string e; //used
 	string f; //used
@@ -19,10 +22,7 @@ int main(int argc,char**argv)
 	string q;
 	string r;
 	string s;
-		do {
-			string a; //used
-			string b; //used
-			string c; //used
+do {
 
 			cout << "What's your first and last name?" << endl;
 
@@ -41,7 +41,6 @@ int main(int argc,char**argv)
 				n = 1;
 			}
 
-		} while (n != 0);
 
 	cout << "Where would you like to go? A or B?" << endl;
 	cin >> d;
@@ -75,7 +74,11 @@ int main(int argc,char**argv)
 
 		}
 
-	return 0;
+} while (n != 0);
+
+
+
+		return 0;
 
 
 }
