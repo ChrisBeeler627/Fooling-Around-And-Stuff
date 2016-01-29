@@ -23,23 +23,24 @@ int main(int argc,char**argv)
 	string r;
 	string s;
 do {
+	cout << "Welcome to the text adventure! Please have your caps lock on; every answer available will be obvious and fully CAPITALIZED in the text" << endl;
 
-			cout << "What's your first and last name?" << endl;
+	cout << "What's your first and last name?" << endl;
 
-			cin >> a >> b;
+	cin >> a >> b;
 
-			cout << "Hello " << a << " " << b << endl;
-			cout << "Should I call you by your first name: " << a << ". yes or no?" << endl;
+	cout << "Hello " << a << " " << b << endl;
+	cout << "Should I call you by your first name: " << a << ". YES or NO?" << endl;
 
-			cin >> c;
+	cin >> c;
 
-			if (c == "yes") {
-				cout << "okay " << a << ", we're gonna go on an adventure" << endl;
-				n = 0;
-			} else {
-				cout << "Gr8 b8 m8, try again!" << endl;
-				n = 1;
-			}
+		if (c == "YES") {
+			cout << "okay " << a << ", we're gonna go on an adventure" << endl;
+			n = 0;
+		} else {
+			cout << "Gr8 b8 m8, try again!" << endl;
+			n = 1;
+		}
 
 
 	cout << "Where would you like to go? A or B?" << endl;
@@ -78,7 +79,7 @@ do {
 
 
 
-		return 0;
+return 0;
 
 
 }
