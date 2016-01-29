@@ -4,12 +4,25 @@ using namespace std;
 int main(int argc,char**argv)
 {
 	int n;
-	string d;
-	string e;
+	string d; //used
+	string e; //used
+	string f; //used
+	string g;
+	string h;
+	string i;
+	string j;
+	string k;
+	string l;
+	string m;
+	string o;
+	string p;
+	string q;
+	string r;
+	string s;
 		do {
-			string a;
-			string b;
-			string c;
+			string a; //used
+			string b; //used
+			string c; //used
 
 			cout << "What's your first and last name?" << endl;
 
@@ -38,6 +51,17 @@ int main(int argc,char**argv)
 			cout << "Please choose KILL or BARGAIN" << endl;
 			cin >> e;
 			if (e == "KILL"){
+				cout << "You have a ROCK to your left and a WALL to your right. Which do you choose?" << endl;
+				cin >> f;
+
+				if (f == "ROCK"){
+
+				} else if (f == "WALL") {
+
+
+				} else {
+
+				}
 
 			} else if (e == "BARGAIN") {
 
